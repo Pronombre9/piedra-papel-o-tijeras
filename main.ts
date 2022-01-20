@@ -65,5 +65,17 @@ let comparacion = 0
 let enviado = 0
 radio.setGroup(3)
 basic.forever(function () {
-	
+    if (false && (false || false && (false || false && false))) {
+        basic.showIcon(IconNames.Yes)
+    } else if (false) {
+        basic.showLeds(`
+            . . . . .
+            # # # # #
+            . . . . .
+            # # # # #
+            . . . . .
+            `)
+    } else {
+        basic.showIcon(IconNames.No)
+    }
 })
