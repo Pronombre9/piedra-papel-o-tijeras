@@ -35,7 +35,7 @@ input.onButtonPressed(Button.A, function () {
         `)
     radio.sendNumber(3)
     enviado = 1
-    comparacion = 0
+    comparacion = 3
 })
 input.onButtonPressed(Button.AB, function () {
     basic.showLeds(`
@@ -47,7 +47,7 @@ input.onButtonPressed(Button.AB, function () {
         `)
     radio.sendNumber(2)
     enviado = 1
-    comparacion = 0
+    comparacion = 2
 })
 input.onButtonPressed(Button.B, function () {
     basic.showLeds(`
@@ -59,7 +59,7 @@ input.onButtonPressed(Button.B, function () {
         `)
     radio.sendNumber(1)
     enviado = 1
-    comparacion = 0
+    comparacion = 1
 })
 let comparacion = 0
 let enviado = 0
